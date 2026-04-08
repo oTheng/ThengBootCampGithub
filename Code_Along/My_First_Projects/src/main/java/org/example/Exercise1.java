@@ -1,5 +1,8 @@
 package org.example;
 
+import java.util.Random;
+import java.util.Scanner;
+
 public class Exercise1 {
     public static void main(String[] args) {
     String storeColor = "Red"; // EXERCISE 2, Workbook page-69
@@ -26,21 +29,31 @@ public class Exercise1 {
         double carPrice = 13.44;
         double truckPrice = 1.33;
         double smallestNum = Math.min(carPrice, truckPrice);
-        System.out.println(smallestNum);// question 2
+        System.out.println("Finding the min of two small number is "+smallestNum);// question 2
         double radiusCircle = 7.25;
         double findRadiusCircle = Math.PI * Math.pow(radiusCircle, 2);
-        System.out.println(findRadiusCircle); // question 3
+        System.out.println("Radius is 7, calculate :PieR^2 is "+findRadiusCircle); // question 3
         double numSqaure = 5;
         double rootSquare = Math.sqrt(numSqaure);
-        System.out.println(rootSquare); //question 4
-        int distanceNum1 = Math.subtractExact(10, 5);
-        int distanceNum2 = Math.subtractExact(85, 50);
-        System.out.println(distanceNum1);
-        System.out.println(distanceNum2); //question 5
+        System.out.println("Sqaure root of 5 is "+rootSquare); //question 4
+        double distancePoints = Math.hypot(5-10, 85-50);
+        System.out.println("The distance between 5,10 and 85,50 is "+distancePoints); // question 5
         double absValue = -3.8;
         double setAbsValue = Math.abs(absValue);
-        System.out.println(setAbsValue); // question 6
-        int number =1;
+        System.out.println("Absolute value of -3.8 is "+setAbsValue); // question 6
+        double ranDec = Math.random();
+        long ranNum = 158123;
+        double calRan = ranDec * ranNum;
+        System.out.println(calRan+ " modulo 2 is " +calRan % 2); // question 7
+        Scanner input = new Scanner(System.in);
+        System.out.println("Choose how many days you want into minutes.");
+        int inputDays = input.nextInt();
+        int minute = 60;
+        int hour = 24;
+        int days = hour * inputDays;
+        System.out.println(inputDays + " days into minute is " + minute * days); // question 8
+
+
 
 
     }
