@@ -1,0 +1,7 @@
+04/08/2026
+Today I learn about:
+- public static void main(String[] args) - is a mini program within the main class? Method- Starting point, can run
+- Math.pow is expnonent 
+- Scanner Input = new Scanner(System.in) to import user.input by Scanner
+- if statement need curly brace closed to use else statement. Else statement also need to use curly brace as well.
+- Complete exercise 3
