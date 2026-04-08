@@ -28,7 +28,7 @@ public class Exercise1 {
         double smallestNum = Math.min(carPrice, truckPrice);
         System.out.println(smallestNum);// question 2
         double radiusCircle = 7.25;
-        double findRadiusCircle = Math.PI * Math.pow(radiusCircle, 2)
+        double findRadiusCircle = Math.PI * Math.pow(radiusCircle, 2);
         System.out.println(findRadiusCircle); // question 3
         double numSqaure = 5;
         double rootSquare = Math.sqrt(numSqaure);
@@ -41,7 +41,7 @@ public class Exercise1 {
         double setAbsValue = Math.abs(absValue);
         System.out.println(setAbsValue); // question 6
         int number =1;
-        int randomNum = Math.random();
+
 
     }
 }
